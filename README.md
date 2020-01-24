@@ -18,5 +18,5 @@ LED to GPIO2 (D4 Blue LED on the WeMos D1 Mini and the ESP-12E module on the Nod
 
 Flashing CC2530 and CC2531
 ==========================
-Use the files provided in folder `bin`<br>
-[Zigbee](https://www.zigbee2mqtt.io/information/alternative_flashing_methods.html) flash infos
+Use the files provided in folder `bin` The Hex files are already converted and ready for flash via CCLoader<br>
+More [Zigbee](https://www.zigbee2mqtt.io/information/alternative_flashing_methods.html) flash infos
