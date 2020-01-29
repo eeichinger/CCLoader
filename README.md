@@ -14,6 +14,7 @@ VCC (Pin 12) to 3.3V <br>
 
   ![image](CCLoader.jpg)
 3. Use CCLoader.exe to load the CC2541hm10v540.bin to burn the firmware via the NodeMCU to the HM-10 <br>
+   ´CCLoader_x86_64.exe [Number of the COM port] CC2541hm10v540.bin 0´ <br>
 4. [Help Video](https://www.youtube.com/watch?v=ez3491-v8Og&lc=z23dzv5wvxrkghouvacdp43beqjns0ivud2tbkcab1xw03c010c.1542030938199060) <br>
 5. Upgrade to firmware V609 with the Manufactor upgrade tool [HMSoft-10-2541-V609.zip](/HowTo%20Upgrade%20Firmware%20after%20flash%20(V609)/HMSoft-10-2541-V609.zip).  [More Info](https://forum.arduino.cc/index.php?topic=393655.0)<br>  
 
