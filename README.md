@@ -9,7 +9,6 @@ Burn CC25xx firmware using an NodeMCU board.
 DD to GPIO14 (D5 on NodeMCU/WeMos D1 Mini) <br>
 DC to GPIO4 (D2 on NodeMCU/WeMos D1 Mini) <br>
 RESET to GPIO5 (D1 on NodeMCU/WeMos D1 Mini) <br>
-LED to GPIO2 (D4 Blue LED on the WeMos D1 Mini and the ESP-12E module on the NodeMCU) <br>
 
   ![image](CCLoader.jpg)
 3. Use CCLoader.exe to load the CC2541hm10v540.bin to burn the firmware via the NodeMCU to the HM-10 <br>
