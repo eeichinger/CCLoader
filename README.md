@@ -6,9 +6,11 @@ Burn CC25xx firmware using an NodeMCU board.
 1. Load the CCLoader Arduino sketch to the MCU board.
 2. Wire the pins:
 
-DD to GPIO14 (D5 on NodeMCU/WeMos D1 Mini) <br>
-DC to GPIO4 (D2 on NodeMCU/WeMos D1 Mini) <br>
-RESET to GPIO5 (D1 on NodeMCU/WeMos D1 Mini) <br>
+DD (DEBUG_DATA Pin 8) to GPIO14 (D5 on NodeMCU/WeMos D1 Mini) <br>
+DC (DEBUG_CLOCK Pin 7) to GPIO4 (D2 on NodeMCU/WeMos D1 Mini) <br>
+RESET (RESET_N Pin 11) to GPIO5 (D1 on NodeMCU/WeMos D1 Mini) <br>
+GND (Pin 13) to GND <br>
+VCC (Pin 12) to 3.3V <br>
 
   ![image](CCLoader.jpg)
 3. Use CCLoader.exe to load the CC2541hm10v540.bin to burn the firmware via the NodeMCU to the HM-10 <br>
