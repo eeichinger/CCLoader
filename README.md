@@ -25,5 +25,4 @@ VCC (Pin 12) to 3.3V <br>
 Flashing CC2530 and CC2531
 ==========================
 Use the files provided in folder `bin` The Hex files are already converted and ready for flash via CCLoader<br>
-More [Zigbee](https://www.zigbee2mqtt.io/information/alternative_flashing_methods.html),  
-[Zigbee2Tasmota](https://github.com/Jason2866/CCLibflash) infos
+More [Zigbee](https://www.zigbee2mqtt.io/information/alternative_flashing_methods.html), [Zigbee2Tasmota](https://github.com/Jason2866/CCLibflash) infos
