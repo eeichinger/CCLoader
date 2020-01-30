@@ -4,9 +4,11 @@ CCLoader
 Burn CC25xx firmware using an NodeMCU board.
 
 1. Load the CCLoader Arduino sketch to the MCU board.
-2. Wire the pins:
+
   ![image](hm-10-pinout.png)
   ![image](cc2541_pin.png)
+  
+2. Wire the pins:  
 DD (DEBUG_DATA Pin 8) to GPIO14 (D5 on NodeMCU/WeMos D1 Mini) <br>
 DC (DEBUG_CLOCK Pin 7) to GPIO4 (D2 on NodeMCU/WeMos D1 Mini) <br>
 RESET (RESET_N Pin 11) to GPIO5 (D1 on NodeMCU/WeMos D1 Mini) <br>
