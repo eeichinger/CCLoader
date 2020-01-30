@@ -3,7 +3,7 @@ CCLoader
 
 Burn CC25xx firmware using an NodeMCU board.
 
-1. Load the [CCLoader Arduino sketch](/Bin/CCLoader_Arduino.bin) to the MCU board.
+1. Load the already compiled [CCLoader Arduino sketch](/Bin/CCLoader_Arduino.bin) to the MCU board.
 
   ![image](hm-10-pinout.png)
   ![image](cc2541_pin.png)
