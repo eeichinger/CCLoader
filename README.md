@@ -24,5 +24,5 @@ Burn CC25xx firmware using an NodeMCU board.
 
 Flashing CC2530 and CC2531
 ==========================
-Use the files provided in folder `bin` The Hex files are already converted and ready for flash via CCLoader<br>
+Use the files provided in folder [`Bin`](/Bin) The Hex files are already converted and ready for flash via CCLoader<br>
 More [Zigbee](https://www.zigbee2mqtt.io/information/alternative_flashing_methods.html) infos
