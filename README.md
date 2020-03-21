@@ -1,8 +1,15 @@
 CCLoader
 ========
 
-Burn CC25xx firmware using an NodeMCU board.
+Burn CC25xx/HM10 firmware using a NodeMCU or Wemos D1 mini.
 
+Flashing CC2530 or CC2531
+==========================
+Use the files provided in folder [`Bin`](/Bin) The Hex files are already converted and ready to flash via CCLoader<br>
+More [Zigbee](https://www.zigbee2mqtt.io/information/alternative_flashing_methods.html) infos.
+
+Flashing HM10
+==========================
 1. Load the already compiled [CCLoader Arduino firmware](/Bin/CCLoader_Arduino.bin) to the MCU board.
 
   ![image](hm-10-pinout.png)
@@ -22,7 +29,3 @@ Burn CC25xx firmware using an NodeMCU board.
 5. Up- and Downgrade to other firmwares you can do with [Manufacturer upgrade tool](http://www.jnhuamao.cn/download_rom_en.asp?id=). <br>
 [More Info](https://forum.arduino.cc/index.php?topic=393655.0)<br>  
 
-Flashing CC2530 and CC2531
-==========================
-Use the files provided in folder [`Bin`](/Bin) The Hex files are already converted and ready for flash via CCLoader<br>
-More [Zigbee](https://www.zigbee2mqtt.io/information/alternative_flashing_methods.html) infos
