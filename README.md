@@ -12,7 +12,7 @@ Flashing HM10 (CC2541) or CC2540
 ==========================
 
   
-2. Wire the pins:
+1. Wire the pins:
 
 | Pin Name | Pin# | NodeMCU/Wemos Pin | GPIO# |
 | --- | --- | --- | --- |  
@@ -26,11 +26,11 @@ Flashing HM10 (CC2541) or CC2540
 
 ![image](wiring-HM-10.jpg)
 
-3. Use CCLoader.exe to load the [CC2541hm10v707.bin](/Bin/CC2541hm10v707.bin) firmware via the NodeMCU to the HM-10 with command:<br>
+2. Use CCLoader.exe to load the [CC2541hm10v707.bin](/Bin/CC2541hm10v707.bin) firmware via the NodeMCU to the HM-10 with command:<br>
    `CCLoader_x86_64.exe [Number of the COM port] CC2541hm10v707.bin 0` <br>
 ![image](CCLoader.jpg)
 
-4. You should see a result similar to
+3. You should see a result similar to
 
 ![image](flash-success.jpg)
 
