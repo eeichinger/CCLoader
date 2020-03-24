@@ -10,7 +10,9 @@ More [Zigbee](https://www.zigbee2mqtt.io/information/alternative_flashing_method
 
 Flashing HM10 (CC2541) or CC2540
 ==========================
-1. Load the already compiled [CCLoader Arduino firmware](/Bin/CCLoader_Arduino.bin) to the MCU board.
+1. Load the already compiled [CCLoader Arduino firmware](/Bin/CCLoader_Arduino.bin) to the MCU board.<br>
+   
+   Module HM 10 
 
   ![image](HM-10-Pinout.png)
   ![image](cc2541_pin.png)
