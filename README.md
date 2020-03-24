@@ -12,7 +12,7 @@ Flashing HM10
 ==========================
 1. Load the already compiled [CCLoader Arduino firmware](/Bin/CCLoader_Arduino.bin) to the MCU board.
 
-  ![image](hm-10-pinout.png)
+  ![image](HM-10-Pinout.png)
   ![image](cc2541_pin.png)
   
 2. Wire the pins:  
