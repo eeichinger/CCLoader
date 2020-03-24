@@ -8,9 +8,8 @@ Flashing CC2530 or CC2531
 Use the files provided in folder [`Bin`](/Bin). The Hex files are already converted and ready to flash with CCLoader<br>
 More [Zigbee](https://www.zigbee2mqtt.io/information/alternative_flashing_methods.html) information.
 
-Flashing HM10
+Flashing HM10 (CC2541) or CC2540
 ==========================
-1. Load the already compiled [CCLoader Arduino firmware](/Bin/CCLoader_Arduino.bin) to a NodeMCU/Wemos board.
 
   
 2. Wire the pins:
