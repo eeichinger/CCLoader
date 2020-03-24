@@ -22,7 +22,7 @@ Flashing HM10 (CC2541) or CC2540
 | 3.3V | Pin #12 | 3.3V | |  
 | GND | Pin #13 | GND | |
 
-![image](hm-10-pinout.png)
+![image](hm-10-pinout.png)![image](HM-10-Pinout.png)
 
 ![image](wiring-HM-10.jpg)
 
