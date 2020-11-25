@@ -5,7 +5,7 @@ Burn CC25xx/HM10 firmware using a NodeMCU or Wemos D1 mini.
 
 Flashing CC2530 or CC2531
 ==========================
-Use the files provided in folder [`Bin`](/Bin). The Hex files are already converted and ready to flash with CCLoader<br>
+Use the files provided in folder [`Bin`](/Bin). The BIN files are already converted and ready to flash with CCLoader<br>
 Detailed [Zigbee flashing](https://zigbee.blakadder.com/flashing_ccloader.html) information. Thx @blakadder
 
 Flashing HM10 (CC2541) or CC2540
