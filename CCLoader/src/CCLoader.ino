@@ -83,11 +83,23 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #define WAITING               0x00
 #define RECEIVING             0x01
 
-// Debug control pins & the indicate LED
+#if defined(__AVR_ATmega328P__)
+
+// Debug control pins & the indicate LED for Arduino Uno
+int DD = 6;
+int DC = 5;
+int RESET = 4;
+int LED = 13;
+
+#else
+
+// Debug control pins & the indicate LED for NodeMCU/WeMos
 int DD = 14; //GPIO14=D5 on NodeMCU/WeMos D1 Mini
 int DC = 4; //GPIO4=D2 on NodeMCU/WeMos D1 Mini
 int RESET = 5; //GPIO5=D1 on NodeMCU/WeMos D1 Mini
 int LED = 2; //GPIO2=D4 and the Blue LED on the WeMos D1 Mini and the ESP-12E module on the NodeMCU, or can use GPIO16=D0 for the other Blue LED on NodeMCU
+
+#endif
 
 /******************************************************************************
  VARIABLES*/
